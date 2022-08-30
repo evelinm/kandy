@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import SellerInfo from './components/SellerInfo';
+import Items from './components/Items';
 
 function App() {
   return (
     <div>
-     hello
+     <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+     <SellerInfo/>
+    <Items/>
 
     </div>
   );
